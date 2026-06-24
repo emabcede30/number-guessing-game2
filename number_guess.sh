@@ -76,6 +76,6 @@ do
   fi
 done
 
-# 3. Save the completed game data to the databasessssss
+# 3. Save the completed game data to the databasesssssss
 
 INSERT_GAME_RESULT=$($PSQL "INSERT INTO games(user_id, number_of_guesses) VALUES($USER_ID, $GUESS_COUNT)")
